@@ -3,7 +3,7 @@ index = 0
 counter = 1
   until index = board.length-1
     if board[index] != " "
-      count += 1
+      counter += 1
     else
       count
     end
