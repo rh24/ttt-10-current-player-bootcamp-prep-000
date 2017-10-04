@@ -4,6 +4,7 @@ counter = 1
   until index = board.length-1
     if board[index] != " "
       counter += 1
+      index++
     else
       counter
     end
