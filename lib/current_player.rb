@@ -3,7 +3,7 @@ index = 0
 turns = 0
   until index = board.length-1
     if board[index] != " "
-      counter += 1
+      turn += 1
       index += 1
     else
       counter
