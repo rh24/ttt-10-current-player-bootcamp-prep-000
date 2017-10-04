@@ -1,5 +1,5 @@
 def turn_count(board)
-  count = 1
+  count = 0
   while count < board.length-1
     if board[count] != " "
       count += 1
