@@ -4,8 +4,8 @@ def turn_count(board)
   while index < board.length-1
     if board[index] != " "
       count += 1
-    else
-      count
+    # else
+    #   count
     end
   end
 end
