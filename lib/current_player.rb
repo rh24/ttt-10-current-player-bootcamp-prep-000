@@ -1,6 +1,4 @@
 def turn_count(board)
-index = 0
-  # until index = board.length-1
     turns = 0
     board.each do |turn|
       if turn != " "
