@@ -1,6 +1,6 @@
 def turn_count(board)
 index = 0
-  until index = board.length-1
+  # until index = board.length-1
     turns = 0
     if board[index] != " "
       turns += 1
