@@ -5,10 +5,10 @@ counter = 1
     if board[index] != " "
       counter += 1
     else
-      count
+      counter
     end
   end
-  count
+  counter
 end
 
 def current_player
