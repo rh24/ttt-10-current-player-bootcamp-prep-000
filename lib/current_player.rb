@@ -3,6 +3,7 @@ def turn_count(board)
   if board[index] != " "
   board.each {|turn| count += 1}
 end
+end
 
 def current_player
 
