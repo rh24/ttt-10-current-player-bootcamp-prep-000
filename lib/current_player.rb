@@ -6,8 +6,8 @@ index = 0
       turns += 1
       index += 1
     end
+    turns
   end
-  turns
 end
 
 def current_player
