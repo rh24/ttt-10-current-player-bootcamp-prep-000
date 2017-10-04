@@ -1,7 +1,7 @@
 def turn_count(board)
 index = 0
-counter = 1
   until index = board.length-1
+    counter = 1
     if board[index] != " "
       counter += 1
       index += 1
