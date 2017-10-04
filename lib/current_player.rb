@@ -1,7 +1,7 @@
 def turn_count(board)
   count = 1
-  board.each do |turn|
-    if turn != " "
+  while count < board.length-1
+    if board[count] != " "
       count += 1
     else
       count
