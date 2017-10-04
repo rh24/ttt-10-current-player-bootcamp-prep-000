@@ -4,7 +4,7 @@ def turn_count(board)
     if turn != " "
       count += 1
     else
-      count += 1
+      count
     end
   end
 end
