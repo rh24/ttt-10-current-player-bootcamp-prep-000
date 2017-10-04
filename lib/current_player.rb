@@ -9,6 +9,7 @@ index = 0
       counter
     end
   end
+  counter
 end
 
 def current_player
